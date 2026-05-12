@@ -1,25 +1,102 @@
-# E-commerce Sales Analysis
+# 📊 E-commerce Sales Analysis
 
-## Project Overview
-End-to-end data analysis project using Python and Pandas to extract business insights from e-commerce sales data.
+End-to-end data analysis project focused on extracting **business insights** from an e-commerce dataset using Python.
 
-## Dataset
-The dataset contains orders and product-level sales information from an e-commerce business.
+---
 
-## Skills Demonstrated
-- Data Cleaning
-- Data Merging
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Business Insights
+## 🎯 Business Problem
+Companies need to understand:
+- What products drive revenue
+- Where their best customers are located
+- How sales evolve over time
+- Which customers generate the most value
 
-## Tools Used
-Python • Pandas • Matplotlib • Seaborn • Jupyter Notebook
+This project answers those questions using real data analysis techniques.
 
-## Key Insights
-- Identified top-performing product categories
-- Discovered top revenue-generating cities
-- Analyzed monthly revenue trends
-- Calculated key business KPIs
+---
 
-## Project Structure
+## 📁 Dataset
+Two datasets were used:
+- **Orders.csv** → Order information
+- **Details.csv** → Product and sales details
+
+They were cleaned, merged and transformed for analysis.
+
+---
+
+## 🛠️ Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## 📈 Key KPIs Calculated
+- Total Revenue
+- Total Orders
+- Total Customers
+- Average Order Value (AOV)
+
+---
+
+## 🔎 Analysis Performed
+✔ Data Cleaning & Preprocessing  
+✔ Dataset Merging  
+✔ Feature Engineering (Date → Year/Month)  
+✔ Exploratory Data Analysis (EDA)  
+✔ Data Visualization  
+✔ Business Insight Generation  
+
+---
+
+## 💡 Key Insights
+• Revenue is concentrated in a small number of products and categories  
+• A small group of customers generates a large portion of revenue  
+• Sales show a clear monthly trend (seasonality)  
+• Some cities contribute significantly more revenue than others  
+
+---
+
+## 📊 Business Recommendations
+- Focus marketing on top cities and high-value customers  
+- Increase inventory of top-performing products  
+- Plan promotions based on seasonality  
+- Develop retention strategies for top customers  
+
+---
+
+## 📂 Project Structure
+
+notebook.ipynb → Full analysis
+Orders.csv → Orders dataset
+Details.csv → Sales details dataset
+README.md → Project documentation
+
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository
+
+git clone https://github.com/tomasruano/ecommerce-sales-analysis.git
+
+
+2. Install dependencies
+
+pip install pandas numpy matplotlib seaborn
+
+
+3. Run the notebook
+
+jupyter notebook
+
+
+Open `notebook.ipynb` and run all cells.
+
+---
+
+## 👨‍💻 Author
+Tomás Ruano
